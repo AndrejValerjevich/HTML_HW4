@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    border: 0;
+    margin: auto;
+    width: 960px;
+    font-family: arial;
+}
+
+article {
+    background: #FFFAF0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+	margin-left: 10px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.main-pic {
+    width: 600px;
+}
+
+.pic-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ingridients,.steps {
+    margin-top: 30px;
+}
+
+table {
+    border: black solid 1px;
+    border-collapse: collapse;
+    line-height: 1.8em;
+    margin: auto;
+}
+
+th {
+    font-weight: 700;
+    border: black solid 1px;
+    text-align: center;
+    padding: 5px;
+}
+
+td {
+    border: black solid 1px;
+    text-align: center;
+    padding: 5px;
+}
+
+.step-pic {
+    width: 200px;
+    margin: auto 30px;
+    float: left;
+}
+
+section>section::after {
+    content: "";
+    width: 100%;
+    display: block;
+    clear:both;
+}
+
+section>section>section {
+    margin: 0 auto;
+}
+
+p>small {
+	margin-left: 10px;
+}
+
+ul>li {
+    list-style-type: none;
+}
